@@ -1,29 +1,30 @@
 {
-  "name": "code-stats-atom",
-  "main": "./lib/code-stats-atom",
-  "version": "2.0.6",
-  "description": "Code::Stats package for Atom",
-  "homepage": "https://codestats.net/",
-  "keywords": [
-    "code",
-    "statistics",
-    "fun"
-  ],
-  "activationHooks": [],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/code-stats/code-stats-atom"
+  "_from": "https://www.atom.io/api/packages/code-stats-atom/versions/2.0.6/tarball",
+  "_id": "code-stats-atom@2.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-1cAunLrpRDealBNn0c4HzcDksX4Gk2otRFGe/Q2aiuAXw9ng2wplMTpcGbR4XG/jhvmfeb86nRMidqBDQIVrew==",
+  "_location": "/code-stats-atom",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/code-stats-atom/versions/2.0.6/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/code-stats-atom/versions/2.0.6/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/code-stats-atom/versions/2.0.6/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/code-stats-atom/versions/2.0.6/tarball"
   },
-  "license": "BSD",
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/code-stats-atom/versions/2.0.6/tarball",
+  "_shasum": "694a5d193733ad9d5e180d8597b47a5ce0137a94",
+  "_spec": "https://www.atom.io/api/packages/code-stats-atom/versions/2.0.6/tarball",
+  "_where": "C:\\Users\\Caellion\\AppData\\Local\\Temp\\apm-install-dir-118112-12296-19u4v04.wty9",
+  "activationHooks": [],
   "bugs": {
     "url": "https://gitlab.com/code-stats/code-stats-atom/issues"
   },
-  "engines": {
-    "atom": ">=1.7.4 <2.0.0"
-  },
-  "dependencies": {
-    "status-bar": "^1.1.0"
-  },
+  "bundleDependencies": false,
   "configSchema": {
     "apiKey": {
       "type": "string",
@@ -43,5 +44,27 @@
         "^1.0.0": "consumeStatusBar"
       }
     }
-  }
+  },
+  "dependencies": {
+    "status-bar": "^1.1.0"
+  },
+  "deprecated": false,
+  "description": "Code::Stats package for Atom",
+  "engines": {
+    "atom": ">=1.7.4 <2.0.0"
+  },
+  "homepage": "https://codestats.net/",
+  "keywords": [
+    "code",
+    "statistics",
+    "fun"
+  ],
+  "license": "BSD",
+  "main": "./lib/code-stats-atom",
+  "name": "code-stats-atom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-stats/code-stats-atom.git"
+  },
+  "version": "2.0.6+u1"
 }
